@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: a.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+#url-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+#platform-select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+#download-btn {
+    padding: 12px 24px;
+    background-color: #34A853;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#download-btn:hover {
+    background-color: #2E8B57;
+}
+
+#result-container {
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.hidden {
+    display: none;
+}
+
+#content-info {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.info-text {
+    flex: 1;
+    min-width: 200px;
+}
+
+#download-options {
+    margin-top: 20px;
+}
+
+.download-option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #FBBC05;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.download-option:hover {
+    background-color: #F9A825;
+}
+
+#instructions {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #E8F0FE;
+    border-radius: 8px;
+}
+
+#instructions h2 {
+    margin-bottom: 15px;
+    color: #4285F4;
+}
+
+#instructions ol {
+    margin-left: 20px;
+}
+
+#instructions li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #666;
+}
